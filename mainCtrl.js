@@ -1,5 +1,5 @@
-angular.module('toyProblem').controller("mainCtrl", function($scope) {
+angular.module('toyProblem').controller("mainCtrl", function($scope, mainService) {
 
-  $scope.test = "hello world!"
+  $scope.test = mainService.getData();
 
 })

@@ -1,1 +1,7 @@
-angular.module('toyProblem').service()
+angular.module('toyProblem').service('mainService', function() {
+  this.getData = function() {
+
+    return "hello universe!";
+
+  }
+})
